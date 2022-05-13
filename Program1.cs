@@ -41,7 +41,7 @@ namespace QLDSV_HTC
         public static int mKhoa = 0;//khoa cntt hay vt
 
         //biến dùng để chứa danh sách các phân mãnh từ view 
-        public static BindingSource Bds_Dspm = new BindingSource();
+        public static BindingSource bdsDSPM = new BindingSource();
 
         // lưu các đối tượng form Main và form FrmDangNhap để thực hiển xử lý nghiệp vụ chuyển đổi từ frmMain sang frmDangNhap và ngược lại.
         public static formMain frmMain;
