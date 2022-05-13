@@ -21,7 +21,7 @@ namespace QLDSV_HTC
         public static SqlCommand Sqlcmd = new SqlCommand();
         // chuỗi kết nối connection string để kết nối với csdl , nó bước đầu tiên để thực hiện kết nối 
         public static String connstr;
-        public static String connstr_publicsher = "Data Source=DESKTOP-OK3NI6I;Initial Catalog=QLDSV_TC;Integrated Security=True";
+        public static String connstr_publisher = "Data Source=DESKTOP-OK3NI6I;Initial Catalog=QLDSV_TC;Integrated Security=True";
         public static SqlDataReader myReader;
         // những dòng này dùng trong phần tạo connection string ở bên dưới
         public static String servername = "";
